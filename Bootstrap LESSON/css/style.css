@@ -1,0 +1,68 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.container-fluid{
+    background-color: #063959 !important;
+}
+h3{
+    color: #fecd36;
+    font-weight: 500;
+}
+h1, h2, h3, h4, h5{
+    color: #fecd36 !important;
+}
+.row p{
+    color: #063959;
+    font-weight: 400;
+}
+#logo{
+    font-size: 18px;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#button{
+    display: block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+    border: 0;
+    outline: none;
+    background-color: #fecd36;
+    border-radius: 2px;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 0px 18px;
+    margin: 0px 0px 20px;
+}
+.row button{
+    height: 40px;
+    width: fit-content;
+    border: 0;
+    outline: none;
+    background-color: #fecd36;
+    border-radius: 2px;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 0px 18px;
+    margin: 0px 0px 20px;
+}
+.row button:hover, #button:hover{
+    background-color: #fcad31;
+}
+.centered h1{
+    color: #fecd36;
+}
+.centered p{
+    color: #063959;
+}
+.badge{
+    background-color: #063959;
+    color: #ffffff;
+}

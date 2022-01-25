@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction - Bootstrap</title>
+
+    <!-- == Favicon == -->
+    <link rel="shortcut icon" href="css/img/bootstrap.png">
+
+    <!-- == Style Sheet == -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- == Bootstrap == -->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+
+    <!-- == Fonts == -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <ul class="navbar-nav">
+        <li><a id="logo" href="#section1">Logo</a></li>
+        <li><a id="logo" href="template.html">Template</a></li>
+    </nav>
+    
+    <!-- Section 1 -->
+    <div id="section1">
+      <h1>Section 1</h1>
+      <p>Try to scroll this page and look at the navigation bar while scrolling!</p>
+    </div>
+    <div class="p-5">
+        <!-- Offcanvas Sidebar -->
+<div class="offcanvas offcanvas-start" id="demo">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title">Heading</h1>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>Some text lorem ipsum.</p>
+      <p>Some text lorem ipsum.</p>
+      <button class="btn btn-secondary" type="button">A Button</button>
+    </div>
+  </div>
+  
+  <!-- Button to open the offcanvas sidebar -->
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+    Open Offcanvas Sidebar
+  </button>
+    </div>
+
+    <div class="p-5">
+        <div class="shadow-none p-4 mb-4 bg-light">No shadow</div>
+        <div class="shadow-sm p-4 mb-4 bg-white">Small shadow</div>
+        <div class="shadow p-4 mb-4 bg-white">Default shadow</div>
+        <div class="shadow-lg p-4 mb-4 bg-white">Large shadow</div>
+    </div>
+
+    <div class="p-6 ps-5">
+        <button type="button" class="btn-close"></button>
+    </div>
+
+    <div class="p-5">
+        <label for="browser" class="form-label">Choose your browser from the list:</label>
+<input class="form-control" list="browsers" name="browser" id="browser">
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+    </div>
+    <div class="p-6">
+        <div class="form-check form-switch p-5">
+            <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+            <label class="form-check-label" for="mySwitch">Dark Mode</label>
+          </div>
+    </div>
+    <!-- == Script == -->
+    <script src="js/script.js"></script>
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+    <script src="css/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
